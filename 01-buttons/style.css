@@ -16,7 +16,7 @@ main{
     gap: 1rem;
     background-color: #474747;}
 
-.primary-button{
+.primarybtn{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,16 +24,27 @@ main{
     gap: 1rem;
     background: linear-gradient(93deg, #FFD8B5 -14.02%, #AB5000 144.98%);
     border-radius: 1rem;
-    border: 0px;  }
-    .primary-button,h6{
-        font-family: inter;
-        font-size: 1rem;
-        font-weight: 500;
-        line-height: 121.089%;
-        letter-spacing: 0.09rem;
-        text-transform: uppercase;
-        color: #FFF1E5;}
-.
-.asf{
-    border-radius: 20rem;
-}
+    border: 0px;
+    color: #FFF1E5;}
+    
+.secondrybtn{
+    display: flex;
+    padding: 1rem 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 1.5rem;
+    border: 3px solid transparent;
+    border-radius: 1rem;
+    background:
+        linear-gradient(#474747, #474747) padding-box,
+        linear-gradient(93deg, #FFD8B5 -14.02%, #AB5000 144.98%) border-box;
+    color: #FFF1E5;}
+
+.primarybtn h6,
+.secondrybtn h6{
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.09rem;
+    text-transform: uppercase;}
