@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+body{
+    font-family: "Inter", sans-serif;}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #474747;}
+
+.primary-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 1.5rem;
+    gap: 1rem;
+    background: linear-gradient(93deg, #FFD8B5 -14.02%, #AB5000 144.98%);
+    border-radius: 1rem;
+    border: 0px;  }
+    .primary-button,h6{
+        font-family: inter;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 121.089%;
+        letter-spacing: 0.09rem;
+        text-transform: uppercase;
+        color: #FFF1E5;}
+.
+.asf{
+    border-radius: 20rem;
+}
