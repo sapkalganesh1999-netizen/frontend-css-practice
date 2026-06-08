@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+body{
+    font-family: "Inter", sans-serif;}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+    background-color: #474747;}
+.card{ 
+    height: 14vw;
+    width: 19vw;
+    border: 3px solid rgb(117, 117, 117);
+    padding: 2.4rem;
+    border-radius: 1rem;
+    background-color: rgb(208, 242, 255);
+}
