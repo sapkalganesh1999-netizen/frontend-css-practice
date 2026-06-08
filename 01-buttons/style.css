@@ -48,3 +48,16 @@ main{
     font-weight: 500;
     letter-spacing: 0.09rem;
     text-transform: uppercase;}
+.icon{ 
+    transition: transform 0.3s ease;}
+.primarybtn img {
+    transition: transform 0.3s ease;
+}
+    .primarybtn:hover img {
+        transform: translateX(5px);
+    }
+.secondrybtn img{
+    transition: transform 0.3s ease;}
+
+    .secondrybtn:hover img{
+        transform: translateX(5px);}
