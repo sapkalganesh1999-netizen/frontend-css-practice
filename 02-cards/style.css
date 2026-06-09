@@ -18,14 +18,21 @@ main{
     display: flex;
     flex-direction: column;
     height: 140px;
-    border-radius: 8px;
-    background: #FFF;
-    align-items: flex-start;
-    align-self: stretch;}
-.text-button{display: flex;
+    border-radius: 100px;
+    background: #f9a0a0;}
+.text-button{
+    display: flex;
     padding: 16px;
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
-    background: #FFF;
     align-self: stretch;}
+.text-button, button{
+    border-radius: 4px;
+    border: 1px solid #E0E2E6;
+    padding: 4px 8px;
+    height: 24px;
+    gap: 4px;
+    background: #FFF;
+    /* shadows/xs */
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.10); ;}
