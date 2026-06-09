@@ -11,14 +11,21 @@ main{
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     gap: 1rem;
     background-color: #474747;}
 .card{ 
-    height: 14vw;
-    width: 19vw;
-    border: 3px solid rgb(117, 117, 117);
-    padding: 2.4rem;
-    border-radius: 1rem;
-    background-color: rgb(208, 242, 255);
-}
+    display: flex;
+    flex-direction: column;
+    height: 140px;
+    border-radius: 8px;
+    background: #FFF;
+    align-items: flex-start;
+    align-self: stretch;}
+.text-button{display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    background: #FFF;
+    align-self: stretch;}
