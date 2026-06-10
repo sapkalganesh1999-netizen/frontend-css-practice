@@ -13,13 +13,20 @@ main{
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    background-color: #474747;}
+    background-color: #cbcbcb;}
 .card{ 
-    display: flex;
-    flex-direction: column;
-    height: 140px;
-    border-radius: 100px;
-    background: #f9a0a0;}
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    width:263px;
+    background:#FFF;
+    border-radius:8px;
+    overflow:hidden; /* important */
+    height:auto;}
+ .card img{
+    width:100%;
+    display:block;
+}
 .text-button{
     display: flex;
     padding: 16px;
@@ -27,12 +34,42 @@ main{
     align-items: flex-start;
     gap: 8px;
     align-self: stretch;}
-.text-button, button{
-    border-radius: 4px;
-    border: 1px solid #E0E2E6;
-    padding: 4px 8px;
-    height: 24px;
-    gap: 4px;
-    background: #FFF;
-    /* shadows/xs */
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.10); ;}
+.text-button, p{
+    color: #616469;
+    /* text/text sm */
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 133.333% */
+}
+.text-button, h3{
+    .text-button, p{
+    color: #3A3E44;
+    /* text/text sm */
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 133.333% */
+}
+}
+.text-button button{
+    border-radius:4px;
+    border:1px solid #E0E2E6;
+    background:#FFF;
+    padding:4px 8px;
+    box-shadow:0 1px 2px rgba(0,0,0,.1);
+}
+.text02{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 0 0;
+}
+.btn03{
+        display: inline-flex;
+    padding: 12px 27px;
+    justify-content: center;
+    align-items: center;
+    gap: var(--Styling-Spacing-1, 4px); }
