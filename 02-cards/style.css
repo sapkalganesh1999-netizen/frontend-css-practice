@@ -68,7 +68,7 @@ main{
     flex: 1 0 0;
 }
 .btn03{
-        display: inline-flex;
+    display: inline-flex;
     padding: 12px 27px;
     justify-content: center;
     align-items: center;

@@ -14,7 +14,7 @@ main{
     justify-content: center;
     flex-direction: column;
     gap: 1rem;
-    background-color: #474747;}
+    background-color: #F5F5FA;}
 
 .primarybtn{
     display: flex;
@@ -63,3 +63,23 @@ main{
 
     .secondrybtn:hover img{
         transform: translateX(5px);}
+.btn03{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 32px;
+    background-color: #E5E5F0;
+    box-shadow: -5px -5px 10px 0 rgba(255, 255, 255, 0.50), 5px 5px 10px 0 rgba(170, 170, 204, 0.25), 10px 10px 20px 0 rgba(170, 170, 204, 0.50), -10px -10px 20px 0 #FFF;
+}
+.btn03, h6{
+    color: #7878AB;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 111.111% */
+}
