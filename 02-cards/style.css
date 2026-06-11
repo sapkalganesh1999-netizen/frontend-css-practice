@@ -73,3 +73,35 @@ main{
     justify-content: center;
     align-items: center;
     gap: var(--Styling-Spacing-1, 4px); }
+.card02{
+    display: inline-flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    border-radius: 27px;
+    background: #FFF;
+}
+.card02, p{
+    color: #525252;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.14px;
+}
+.card02, img{
+    height: 368px;
+    width: 368px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: stretch;
+}
+.card02, button{
+    border-radius:4px;
+    border:1px solid #E0E2E6;
+    background:#FFF;
+    padding:4px 8px;
+    box-shadow:0 1px 2px rgba(0,0,0,.1);
+}
